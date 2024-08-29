@@ -8,8 +8,11 @@ This is about Installation of the following in **ubuntu 22.04** machine.
 ## NGINX
 ### Prerequisites
  **Update the system packages**<br>
-`sudo apt update`<br>
- `sudo apt upgrade -y` 
+```bash
+sudo apt update
+```
+ ```sh
+ sudo apt upgrade -y` 
  <br>`-y` option is given so there wont be another prompt by the shell  asking for permission either yes or no, implicitly gives yes.
 
 ### Proceed with Installation of NGINX
