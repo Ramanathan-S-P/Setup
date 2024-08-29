@@ -1,7 +1,10 @@
 # Installation
 This is about Installation of the following in **ubuntu 22.04** machine.
+- NGINX
+- MongoDB
+- Node
+- PM2
 #
-
 ## NGINX
 ### Prerequisites
  **Update the system packages**<br>
