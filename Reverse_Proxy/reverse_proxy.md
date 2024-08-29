@@ -5,7 +5,7 @@
 - Domain name pointing to your server's public IP, This will be used in configuring your server using nginx for proxying.
 #
 ## Installing NGINX
-refer [NGINX_SETUP](https://github.com/Ramanathan-S-P/Setup/blob/main/Installation/installation.md#nginx)
+Refer [NGINX_SETUP](https://github.com/Ramanathan-S-P/Setup/blob/main/Installation/installation.md#nginx)
 #
 ## Configure your Server
 All nginx installed servers have a default `.conf` file that displays a `default nginx html page` so rather than altering it create a new `.conf` ( nginx configuration file )
