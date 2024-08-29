@@ -16,7 +16,9 @@ This is about Installation of the following in **ubuntu 22.04** machine.
 `sudo apt install nginx -y` 
 ### Start, Enable and Check status
 1. Starting the service
-`sudo systemctl start nginx`
+```sh
+sudo systemctl start nginx
+```
 2. Enabling the service 
 `sudo systemctl enable nginx` <br>
 This starts nginx always on system boot automatically.
