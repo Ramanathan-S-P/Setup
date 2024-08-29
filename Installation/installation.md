@@ -38,7 +38,7 @@
 `sudo systemctl status mongod`
 ### Output of `sudo systemctl status mongod`
 ![mongod-status](/resources/mongo_status.png)
-
+##
 ## Node
 ### Installing Node using NVM
 ### Install NVM script to your system
