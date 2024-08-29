@@ -1,4 +1,7 @@
 # Installation
+This is about Installation of the following in **ubuntu 22.04** machine.
+#
+
 ## NGINX
 ### Prerequisites
  **Update the system packages**<br>
@@ -18,7 +21,7 @@
 
 ### Output of the `sudo systemctl status nginx` command
 ![example](/resources/mongo_status.png)
-##
+#
 ## MongoDB
  ### Install prerequired packages for the installation process<br>
 ` sudo apt install software-properties-common gnupg apt-transport-https ca-certificates -y`
@@ -38,7 +41,7 @@
 `sudo systemctl status mongod`
 ### Output of `sudo systemctl status mongod`
 ![mongod-status](/resources/mongo_status.png)
-##
+#
 ## Node
 ### Installing Node using NVM
 ### Install NVM script to your system
@@ -52,7 +55,7 @@
 ![nvm_i_v](/resources/nvm_i_ver.png) 
 ### Verify installation using `node -v`
 ![node_v](/resources/node_ver.png)
-##
+#
 ## PM2
 ### Install PM2 using npm
 `sudo npm i pm2@latest -g`<br>
