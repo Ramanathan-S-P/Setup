@@ -45,7 +45,7 @@ Refer [hit me!](https://www.digitalocean.com/community/tutorials/how-to-configur
 ### Create a Symbolic link
 
 **Creating a symbolic link of  `your_domain.conf` present under `/sites-available` to `sites-enabled`** <br>
-so that you can down the sites without disturbing their configuration needed and make them live again whenever required.
+so that you can down the sites without disturbing their configuration and make them live again whenever required.
 ```sh
 sudo ln -s /etc/nginx/sites-available/your_domain /etc/nginx/sites-enabled/
 ```
