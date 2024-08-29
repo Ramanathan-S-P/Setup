@@ -17,7 +17,7 @@
 `sudo systemctl status nginx`
 
 ### Output of the `sudo systemctl status nginx` command
-![example](resources/status_nginx.png)
+![example](/resources/mongo_status.png)
 ##
 ## MongoDB
  ### Install prerequired packages for the installation process<br>
@@ -31,14 +31,14 @@
 ### Verify installation process
 `mongod --version`
 ### Output of `mongod --version`
-![mongod-ver](resources/mongo_ver.png)
+![mongod-ver](/resources/mongo_ver.png)
 ### Start the mongodb service
 `sudo systemctl start mongod`
 ### Status to verify mongodb service
 `sudo systemctl status mongod`
 ### Output of `sudo systemctl status mongod`
-![mongod-status](resources/mongo_status.png)
-##
+![mongod-status](/resources/mongo_status.png)
+
 ## Node
 ### Installing Node using NVM
 ### Install NVM script to your system
@@ -49,13 +49,13 @@
 - Check the versions using `nvm list-remote`
 - Install the required using `nvm i v20.10.0` ( inplace of `v20.10.0` you can give the version that you require ).
 ### Output of `nvm i v20.10.0`
-![nvm_i_v](resources/nvm_i_ver.png) 
+![nvm_i_v](/resources/nvm_i_ver.png) 
 ### Verify installation using `node -v`
-![node_v](resources/node_ver.png)
+![node_v](/resources/node_ver.png)
 ##
 ## PM2
 ### Install PM2 using npm
 `sudo npm i pm2@latest -g`<br>
 `-g` tells npm to install pm2 globally, so you can use it across all your Node.js applications instead of just the current one
 ### Verify installation using `pm2 -v`
-![pm2_v](resources/pm2_v.png)
+![pm2_v](/resources/pm2_v.png)
