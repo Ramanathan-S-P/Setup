@@ -1,16 +1,14 @@
 # Installation
-
 ## NGINX
-
-
 ### Prerequisites
  **Update the system packages**<br>
 `sudo apt update`<br>
  `sudo apt upgrade -y` 
  <br>`-y` option is given so there wont be another prompt by the shell  asking for permission either yes or no, implicitly gives yes.
+
 ### Proceed with Installation of NGINX
 `sudo apt install nginx -y` 
-### start, enable and check status
+### Start, Enable and Check status
 1. starting the service
 `sudo systemctl start nginx`
 2. enabling the service 
@@ -18,8 +16,9 @@
 3. checking the status 
 `sudo systemctl status nginx`
 
-### output of the `sudo systemctl status nginx` command
-![example](status_nginx.png)
+### Output of the `sudo systemctl status nginx` command
+![example](resources/status_nginx.png)
+##
 ## MongoDB
  ### Install prerequired packages for the installation process<br>
 ` sudo apt install software-properties-common gnupg apt-transport-https ca-certificates -y`
@@ -32,11 +31,31 @@
 ### Verify installation process
 `mongod --version`
 ### Output of `mongod --version`
-![mongod-ver](mongo_ver.png)
+![mongod-ver](resources/mongo_ver.png)
 ### Start the mongodb service
 `sudo systemctl start mongod`
 ### Status to verify mongodb service
 `sudo systemctl status mongod`
 ### Output of `sudo systemctl status mongod`
-![mongod-status](mongo_status.png)
-
+![mongod-status](resources/mongo_status.png)
+##
+## Node
+### Installing Node using NVM
+### Install NVM script to your system
+`curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash`
+### To use it source your .bashrc file
+`source ~/.bashrc`
+### Download any of the available versions of node.
+- Check the versions using `nvm list-remote`
+- Install the required using `nvm i v20.10.0` ( inplace of `v20.10.0` you can give the version that you require ).
+### Output of `nvm i v20.10.0`
+![nvm_i_v](resources/nvm_i_ver.png) 
+### Verify installation using `node -v`
+![node_v](resources/node_ver.png)
+##
+## PM2
+### Install PM2 using npm
+`sudo npm i pm2@latest -g`<br>
+`-g` tells npm to install pm2 globally, so you can use it across all your Node.js applications instead of just the current one
+### Verify installation using `pm2 -v`
+![pm2_v](resources/pm2_v.png)
